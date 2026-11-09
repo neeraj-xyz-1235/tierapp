@@ -1,0 +1,124 @@
+{
+  "bank": [],
+  "rows": [
+    {
+      "label": "S+",
+      "colorClass": "default-tier",
+      "color": "rgb(172, 0, 21)",
+      "items": [
+        "static/images/gta4.jpg",
+        "static/images/Red+Dead+Redemption+2+Banner+650.webp",
+        "static/images/portal2.jpg",
+        "static/images/specopstheline.jpg",
+        "static/images/titanfall2.jpg",
+        "static/images/call-of-duty-black-ops-file-47151f2f.jpeg.webp",
+        "static/images/modern_warfare_trilogy.jpg",
+        "static/images/hitmanwoa.jpg",
+        "static/images/bf1.webp",
+        "static/images/undertale.webp"
+      ]
+    },
+    {
+      "label": "S",
+      "colorClass": "s-tier",
+      "color": "rgb(205, 22, 82)",
+      "items": [
+        "static/images/godofwar.jpg",
+        "static/images/codmw4.jpg",
+        "static/images/007firstlight.jpeg",
+        "static/images/blackopscoldwar.jpg",
+        "static/images/mc.png",
+        "static/images/sleepingdogs.jpg",
+        "static/images/The_Last_of_Us_Part_I_cover.jpg",
+        "static/images/infinitewarfare.png",
+        "static/images/maxpayne3.jpg",
+        "static/images/call-of-duty-world-at-war-file-49700199.jpeg.webp",
+        "static/images/blackops6.jpg",
+        "static/images/detroit.jpg",
+        "static/images/wolfensteintnc.jpg",
+        "static/images/codmw22022.jpg",
+        "static/images/grand-theft-auto-v-cover-art.jpg",
+        "static/images/unchartedtll.jpg",
+        "static/images/uncharted4.jpg"
+      ]
+    },
+    {
+      "label": "A+",
+      "colorClass": "a-tier",
+      "color": "rgb(255, 111, 111)",
+      "items": [
+        "static/images/blackmesa.jpg",
+        "static/images/pragmata.jpg",
+        "static/images/tomb-raider-definitive-edition-definitive-edition-xbox-one-pc-game-microsoft-store-turkey-cover.jpg",
+        "static/images/Cities_Skylines_2_Keyart-2.jpg",
+        "static/images/call-of-duty-black-ops-2-file-48980dd1.jpeg.webp",
+        "static/images/wolfensteintno.jpg",
+        "static/images/codghosts.jpg",
+        "static/images/call-duty-ww2.jpg",
+        "static/images/stanley.jpg",
+        "static/images/euro-truck-simulator-2-file-50132230.jpg.webp",
+        "static/images/forza 5.jpg",
+        "static/images/keyart.webp",
+        "static/images/THE FINALS.jpg"
+      ]
+    },
+    {
+      "label": "A",
+      "colorClass": "default-tier",
+      "color": "rgb(255, 128, 0)",
+      "items": [
+        "static/images/rotr.jpg",
+        "static/images/doom.jpeg",
+        "static/images/valo.jpg",
+        "static/images/blur+.jpg",
+        "static/images/driversf.jpg",
+        "static/images/bf4.jpg",
+        "static/images/bf5.jpg",
+        "static/images/hearts-of-iron-iv-deutsche-cut-pc-mac-game-steam-germany-cover.jpg",
+        "static/images/cities.jpg",
+        "static/images/theotown.jpg"
+      ]
+    },
+    {
+      "label": "B",
+      "colorClass": "b-tier",
+      "color": "",
+      "items": [
+        "static/images/aoh2de.jpg",
+        "static/images/watchdogs.jpeg",
+        "static/images/trde.jpg",
+        "static/images/mw32023.jpg"
+      ]
+    },
+    {
+      "label": "C",
+      "colorClass": "c-tier",
+      "color": "",
+      "items": [
+        "static/images/bfbc2.webp",
+        "static/images/delta-force-1920x1080_update.jpg",
+        "static/images/combatmaster.webp",
+        "static/images/cod-call-of-duty-mobile-is-officially-5-years-old-today-how-v0-zlg7bbp362sd1.webp"
+      ]
+    },
+    {
+      "label": "D",
+      "colorClass": "d-tier",
+      "color": "",
+      "items": [
+        "static/images/aoh2.jpg",
+        "static/images/War_Thunder_PSN_Cover_Art_2015_Playstation_4.png"
+      ]
+    },
+    {
+      "label": "F",
+      "colorClass": "f-tier",
+      "color": "",
+      "items": []
+    }
+  ],
+  "settings": {
+    "hideOptions": false,
+    "square": false
+  }
+}

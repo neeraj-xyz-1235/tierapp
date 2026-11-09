@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier List Pro (Python Backend)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <button id="help-btn" class="help-btn">How To use this app</button>
+            <h1>Tier List Pro (Python Backend)</h1>
+            <p style="color: #aaa; text-align: center;">Images from <code>static/images/</code> folder will appear below.</p>
+        </header>
+
+        <div id="tier-list-container" class="tier-list-container">
+            <!-- Tiers will be generated here -->
+        </div>
+
+        <div id="controls-container" class="controls-container">
+            <div class="control-row">
+                <button id="refresh-images-btn" style="background-color: #2196F3;">Refresh Images</button>
+                <label><input type="checkbox" id="hide-controls-check"> Hide Tier Options</label>
+            </div>
+            
+            <div class="control-row">
+                <button id="add-row-btn">New Tier Row</button>
+                <button id="export-btn">Export image</button>
+                <label><input type="checkbox" id="square-images-check"> Square images</label>
+                <button id="reset-btn" style="background-color: #d32f2f;">Reset All</button>
+            </div>
+        </div>
+        
+        <div id="image-bank" class="image-bank">
+            <!-- Images go here -->
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

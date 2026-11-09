@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated thumbnail cache (rebuilt automatically)
+python_tierapp/.thumbs/
+
+# Temporary / backup state files
+python_tierapp/state.json.tmp
+python_tierapp/state.backup-*.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,192 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #555;
+    font-size: 24px;
+}
+
+.help-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.tier-list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.tier-row {
+    display: flex;
+    min-height: 80px;
+    border-bottom: 1px solid #000;
+}
+
+.tier-label {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    outline: none; /* remove focus contenteditable outline */
+    flex-shrink: 0; /* Don't shrink label */
+}
+
+/* Default tier colors */
+.tier-label.s-tier { background-color: #ff7f7f; }
+.tier-label.a-tier { background-color: #ffbf7f; }
+.tier-label.b-tier { background-color: #ffff7f; }
+.tier-label.c-tier { background-color: #7fff7f; }
+.tier-label.d-tier { background-color: #7fffff; }
+.tier-label.f-tier { background-color: #7f7fff; }
+.tier-label.default-tier { background-color: #cccccc; }
+
+.tier-content {
+    flex-grow: 1;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to top */
+    padding: 5px;
+    gap: 5px;
+    min-height: 80px;
+}
+
+.tier-controls {
+    width: 40px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.tier-control-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.tier-control-btn:hover {
+    color: #ccc;
+}
+
+/* Image Items */
+.tier-item {
+    cursor: grab;
+    max-height: 80px;
+    max-width: 100%;
+    object-fit: contain; /* Preserve aspect ratio by default */
+    user-select: none;
+}
+
+/* Square mode */
+.tier-list-container.square-mode .tier-item {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.controls-container {
+    margin-top: 20px;
+    background-color: #2d2d2d;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.control-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.control-row:last-child {
+    margin-bottom: 0;
+}
+
+button, .custom-file-upload {
+    padding: 8px 12px;
+    background-color: #444; /* Dark button bg */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover, .custom-file-upload:hover {
+    background-color: #555;
+}
+
+.image-bank {
+    margin-top: 20px;
+    width: 100%;
+    border: 2px dashed #444;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* Dragging styles */
+.dragging {
+    opacity: 0.5;
+}
+
+.tier-content.drag-over {
+    background-color: #3d3d3d;
+}
+
+/* Hide controls */
+.hide-options .tier-controls {
+    display: none;
+}
